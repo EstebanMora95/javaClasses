@@ -1,0 +1,41 @@
+public class PruebaEntrevista {
+ public static void main (String[] args){
+   
+   
+   System.out.println("El factorial de 5 es = "+ factorial(5));
+   
+   System.out.println("La sumatoria de 120 es = " + sumatoria(120));
+
+    System.out.println("El fibonacci de 20 es = " + fibbonaci(20));
+   
+ }
+ 
+ public static int fibbonaci(int number){
+   int resultado = 0;
+   if(number == 0 || number == 1){
+     resultado = number;
+   } else {
+     resultado = fibbonaci(number-2) +fibbonaci(number -1 );
+   }
+   return resultado;
+ }
+ 
+ public static int sumatoria(int number){
+   int result = 0;
+   for(int n = 0; n <= number; n++){
+     result = result + n;
+   }
+   return result;
+     
+ }
+ 
+ public static int factorial(int number){
+     int fatorialNumber = 1;
+     for (int n = 1; n <= number; n++){
+       fatorialNumber = fatorialNumber * n;
+     }
+     
+     return fatorialNumber;
+   }
+ 
+}

@@ -1,0 +1,14 @@
+public class Test {
+ public static void main (String[] args)
+ {
+   
+  String test = "Esto"; 
+  
+  System.out.println("Esto" == "Esto");
+  
+  System.out.println(test.equals("Esto"));
+  
+  
+ }
+  
+}

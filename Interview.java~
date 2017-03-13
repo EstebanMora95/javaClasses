@@ -1,0 +1,11 @@
+public class Interview{
+  public static void main(String[] args){
+    String varible1 = new String("variable1");
+    String variable2 = new String("variable2");
+    
+    System.out.println(variable1 == variable2);
+    System.out.println(variable1.equals(variable2));
+  
+  }
+  
+}
